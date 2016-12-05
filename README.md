@@ -1,11 +1,12 @@
+# Windows for Webister
+#### We recommend you do not use this in a production eviroment.
 
-# webister
-webister is a python, php, c++, and more project.
-=======
-# Webister
 View the project page by [clicking here](http://alwaysontop617.github.io/webister).
+
 Vew the demo by [clicking here](http://tecflaretest.000webhostapp.com/).
+
 View the frontend demo by [clicking here](http://tecflaretest.000webhostapp.com/gen.php?id=729bb07354cfd99083a34ccd5438f3457eba7752).
+
 ## About Webister
 
   - Free
@@ -23,25 +24,10 @@ If you want to advertise on the users website, you can also do that through the 
 
 You can integrate our code into most platforms. We hope to expand to WHMCS and different billing technologies. We also plan to integrate with Cloudflare to improve the speed of the website.
 
-## Installation
+# Installation
 
-To install webister all you have to type is:
-```sh
-$ sudo bash build.sh
-```
+1. First copy the files over to your hard drive.
+2. Run the start-mysql bat file inside of mysql
+3. go back and run start.bat
+4. Go to localhost:8081 to make sure everything is working
 
-## Support
-
-Thank you for deciding to choose Webister. Feel free to leave issues and make pull requests.
-
-## Sponsor
-
-This project is sponsored by [Gsoft](http://gsoft.cu.cc/).
-
-## Screenshots
-
-![cpanel](https://raw.githubusercontent.com/alwaysontop617/webister/master/screenshots/login.png)
-![cpanel](https://raw.githubusercontent.com/alwaysontop617/webister/master/screenshots/cpanel.png)
-![cpanel](https://raw.githubusercontent.com/alwaysontop617/webister/master/screenshots/database.png)
-![cpanel](https://raw.githubusercontent.com/alwaysontop617/webister/master/screenshots/fileman.png)
-![cpanel](https://raw.githubusercontent.com/alwaysontop617/webister/master/screenshots/website.png)
