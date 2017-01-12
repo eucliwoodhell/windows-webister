@@ -1,4 +1,5 @@
 @echo off
+:start
 setlocal
 echo Updating System...
 if not exist "C:\Temp" mkdir C:\Temp
@@ -7,6 +8,7 @@ cd /d %~dp0
 Call :UnZipFile "C:\Temp\" "C:\Temp\master.zip"
 @RD /S /Q "%ProgramFiles(x86)%\Webister\webister-master\application\tmp\webister\interface"
 echo d | xcopy "C:\Temp\webister-master\application\tmp\webister\interface" "%ProgramFiles(x86)%\Webister\webister-master\application\tmp\webister\interface" /s /e /h
+if not exist "%ProgramFiles(x86)%\Webister\webister-master\application\tmp\webister\interface" goto start
 @RD /S /Q "C:\Temp\"
 exit /b
 :UnZipFile <ExtractTo> <newzipfile>

@@ -75,7 +75,7 @@ echo  You can stop the server using mysql_stop.bat
 
 :END
 echo.
-pause
+exit
 
 rem ## Return to caller
 popd
