@@ -2,6 +2,8 @@
 
 The windows version of Webister has been discontinued. This does not determine if it will come back again.
 
+Download Link [here](https://github.com/alwaysontop617/windows-webister/raw/master/webister-setup.exe)
+
 ## Installation
 
 Once the installation completes, you will get an error message like:
